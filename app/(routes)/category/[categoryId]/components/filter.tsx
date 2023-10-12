@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 interface FilterProps {
     data: (Size | Color)[];
     name: string;
-    valuekey: string;
+    valueKey: string;
 }
 const Filter: React.FC<FilterProps>  = ({
     data,
